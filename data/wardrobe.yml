@@ -1,0 +1,19 @@
+- name: Scotch Grain 3536 ASSURANCE
+  category: Shoes
+  detail: Black calf leather
+  accent: navy
+
+- name: ブラウン本革トート
+  category: Bag
+  detail: Brown leather
+  accent: brown
+
+- name: 馬革名刺入れ
+  category: Accessory
+  detail: Horse leather
+  accent: tan
+
+- name: カフスボタン
+  category: Accessory
+  detail: 2 pairs
+  accent: silver
