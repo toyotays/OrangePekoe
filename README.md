@@ -15,16 +15,16 @@ npm run dev
 npm run verify
 ```
 
-## Cloudflare Pages
+## Cloudflare Workers
 
-- Framework preset: `Next.js (Static HTML Export)`
 - Build command: `npm run build`
-- Build output directory: `out`
+- Deploy command: `npx wrangler deploy`
+- Static assets directory: `out`
 
-直接デプロイする場合は、Cloudflareへログインした状態で次を実行します。
+Next.jsの静的書き出しをWorkers Static Assetsとして配信します。直接デプロイする場合は、Cloudflareへログインした状態で次を実行します。
 
 ```bash
-npm run pages:deploy
+npm run deploy
 ```
 
-個人データを扱うため、公開後はPagesプロジェクトのAccess policyを有効にしてください。
+個人データを扱うため、公開後はWorkerのAccess policyを有効にしてください。
