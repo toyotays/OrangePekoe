@@ -141,7 +141,7 @@ nav { display: flex; align-items: center; gap: 7px; }
 .vision-story-intro-copy p { margin: 0 0 30px; color: rgba(248,242,231,.72); font-size: 15px; line-height: 2.15; }
 .vision-story-intro-copy small { color: var(--story-gold); font: 700 8px ui-sans-serif, system-ui; letter-spacing: .22em; text-transform: uppercase; }
 .vision-story-index { position: sticky; top: 78px; z-index: 15; border-top: 1px solid rgba(255,255,255,.1); border-bottom: 1px solid rgba(255,255,255,.1); background: rgba(13,23,20,.88); backdrop-filter: blur(15px); }
-.vision-story-index .shell { min-height: 68px; display: grid; grid-template-columns: repeat(4, 1fr); }
+.vision-story-index .shell { min-height: 68px; display: grid; grid-template-columns: repeat(5, 1fr); }
 .vision-story-index a { padding: 15px 24px; display: flex; align-items: center; gap: 12px; border-right: 1px solid rgba(255,255,255,.09); }
 .vision-story-index a:first-child { border-left: 1px solid rgba(255,255,255,.09); }
 .vision-story-index a span { color: var(--story-gold); font: 700 10px ui-sans-serif, system-ui; }

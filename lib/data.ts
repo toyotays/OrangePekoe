@@ -22,7 +22,7 @@ export type VisionMilestone = {
 };
 
 export type VisionChapter = {
-  id: "foundation" | "next" | "horizon" | "legacy";
+  id: "foundation" | "next" | "motorsport" | "horizon" | "legacy";
   code: string;
   phase: string;
   title: string;

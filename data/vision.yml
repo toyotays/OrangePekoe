@@ -1,4 +1,4 @@
-# ビジョンは「現在地 → 目の前 → 育てる未来 → 夢・継承」の順に管理します。
+# ビジョンは「現在地 → 目の前 → 次のフォーミュラ → 育てる未来 → 夢・継承」の順に管理します。
 # milestones は表示順に自由に追加・編集できます。
 
 - id: foundation
@@ -6,12 +6,12 @@
   phase: Current foundation
   title: すでに持っている力
   timeframe: 現在地
-  image: /vision/01-foundation.webp
-  imageAlt: 鈴鹿サーキットのフォーミュラカーと、IT・NPO活動に取り組む現在地
-  statement: フォーミュラで鈴鹿を走った経験、ITで形にする技術、仲間と活動する土台。夢はゼロから始まるのではなく、すでにある力の先に続いている。
+  image: /vision/00-formula-practice.webp
+  imageAlt: 白と赤のフォーミュラカーでサーキットを走る現在の練習風景
+  statement: 現在はフォーミュラの練習を重ねている。ITで形にする技術、仲間と活動する土台と同じように、夢はゼロから始まるのではなく、すでにある経験の先に続いている。
   milestones:
-    - label: Motorsport
-      text: フォーミュラで鈴鹿を走る経験を、自分の行動力の証として大切にする。
+    - label: Formula practice
+      text: 今の練習車で走行経験を積み、操作、ライン、判断を一つずつ自分のものにする。
     - label: Technology
       text: 知的好奇心とIT技術を、人や社会の役に立つ形へ変える。
     - label: Community
@@ -35,8 +35,26 @@
     - label: NPO
       text: 全国へ広げるための次の一歩を決め、若いメンバーが誰かを助ける機会を増やす。
 
-- id: horizon
+- id: motorsport
   code: "02"
+  phase: Racing ambition
+  title: 次のフォーミュラへ
+  timeframe: 数年の挑戦
+  image: /vision/02-formula-future.webp
+  imageAlt: 現在のヘルメットを受け継ぎ、Super FJとF4を目指して鈴鹿を走る未来像
+  statement: 現在の練習を土台に、Super FJ、そしてF4も選択肢に入る技量・体力・環境を整える。速い車へ乗ることだけではなく、学び続けて安全に速くなる過程を楽しむ。
+  milestones:
+    - label: Skill
+      text: 走行ごとの振り返りを重ね、再現性のある操作と安定したラップを身につける。
+    - label: Fitness
+      text: 細マッチョの身体づくりを、集中力と持久力を支えるドライバーの基礎へつなげる。
+    - label: Team & budget
+      text: 参戦機会、チーム、必要な費用を具体化し、挑戦を継続できる環境をつくる。
+    - label: Destination
+      text: Super FJまたはF4へステップアップし、自分の力で次のカテゴリーを走る。
+
+- id: horizon
+  code: "03"
   phase: Growing future
   title: 好きな人生を育てる
   timeframe: 数か月〜数年
@@ -54,7 +72,7 @@
       text: NPOの活動を複数地域へ広げ、施設出身の若者が運営と支援の中心へ進む。
 
 - id: legacy
-  code: "03"
+  code: "04"
   phase: Dream & legacy
   title: 夢を、次の世代へ
   timeframe: 長期・継承
