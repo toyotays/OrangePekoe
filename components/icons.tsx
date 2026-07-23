@@ -30,3 +30,7 @@ export function LeafIcon(props: IconProps) {
 export function ArrowIcon(props: IconProps) {
   return <svg {...base} {...props}><path d="M5 12h14M13 6l6 6-6 6"/></svg>;
 }
+
+export function VisionIcon(props: IconProps) {
+  return <svg {...base} {...props}><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>;
+}

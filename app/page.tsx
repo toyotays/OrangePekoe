@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { ArrowIcon, HealthIcon, LeafIcon, TimelineIcon, WardrobeIcon } from "@/components/icons";
+import { ArrowIcon, HealthIcon, LeafIcon, TimelineIcon, VisionIcon, WardrobeIcon } from "@/components/icons";
 import { getTimeline } from "@/lib/data";
 
 const modules = [
   { href: "/health/", label: "Health", copy: "身体の変化を、数字で静かに見つめる。", icon: HealthIcon, tone: "sage" },
   { href: "/timeline/", label: "Timeline", copy: "節目と日々の積み重ねを、一つの物語に。", icon: TimelineIcon, tone: "navy" },
   { href: "/wardrobe/", label: "Wardrobe", copy: "長く付き合う品と、その手入れの記録。", icon: WardrobeIcon, tone: "brown" },
+  { href: "/vision/", label: "Vision", copy: "次の一手から遠い夢まで、進む方角を一枚に。", icon: VisionIcon, tone: "black" },
 ];
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
           <div><p className="eyebrow">The journal</p><h2 id="overview-title">今を知り、歩みを残す</h2></div>
           <p>記録は評価のためではなく、変化に気づくために。</p>
         </div>
-        <div className="module-grid">
+        <div className="module-grid four-up">
           {modules.map(({ href, label, copy, icon: Icon, tone }) => (
             <Link href={href} className={`module-card ${tone}`} key={href}>
               <span className="module-icon"><Icon /></span>

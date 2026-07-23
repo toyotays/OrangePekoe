@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { HealthIcon, HomeIcon, TimelineIcon, WardrobeIcon } from "./icons";
+import { HealthIcon, HomeIcon, TimelineIcon, VisionIcon, WardrobeIcon } from "./icons";
 
 const nav = [
   { href: "/", label: "Home", icon: HomeIcon },
   { href: "/timeline/", label: "Timeline", icon: TimelineIcon },
   { href: "/health/", label: "Health", icon: HealthIcon },
   { href: "/wardrobe/", label: "Wardrobe", icon: WardrobeIcon },
+  { href: "/vision/", label: "Vision", icon: VisionIcon },
 ];
 
 export function Header() {

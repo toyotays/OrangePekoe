@@ -16,6 +16,23 @@ export type WardrobeItem = {
   accent: "navy" | "brown" | "tan" | "silver";
 };
 
+export type VisionMilestone = {
+  label: string;
+  text: string;
+};
+
+export type VisionChapter = {
+  id: "foundation" | "next" | "horizon" | "legacy";
+  code: string;
+  phase: string;
+  title: string;
+  timeframe: string;
+  image: string;
+  imageAlt: string;
+  statement: string;
+  milestones: VisionMilestone[];
+};
+
 function readYaml<T>(filename: string): T {
   const source = fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8");
   return YAML.parse(source) as T;
@@ -27,4 +44,8 @@ export function getTimeline(): TimelineEntry[] {
 
 export function getWardrobe(): WardrobeItem[] {
   return readYaml<WardrobeItem[]>("wardrobe.yml");
+}
+
+export function getVisionChapters(): VisionChapter[] {
+  return readYaml<VisionChapter[]>("vision.yml");
 }
