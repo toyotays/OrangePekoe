@@ -6,7 +6,7 @@
 - id: formula-practice
   title: フォーミュラを走る
   label: CURRENT REALITY
-  caption: 夢ではなく、すでに始まっている現在地。
+  caption: 上手くなり、勝つ。昨日の自分を越え続ける、すでに始まっている挑戦。
   category: Racing
   status: now
   size: hero
@@ -16,12 +16,20 @@
 - id: couple-britain
   title: パートナーと世界を旅する
   label: TOGETHER
-  caption: イギリスから始まり、フランス、ドイツ、台湾、韓国、カナダへ。
+  caption: イギリスから世界へ。二人で常に何かへ挑戦し、一緒に飛び回る。
   category: Relationship
   status: dream
   size: wide
   image: /vision/tiles/couple-britain.webp
   imageAlt: 英国の街で笑顔を見せるシルバーグレーの髪の男性と眼鏡の女性のイラスト
+
+- id: fortune-cafe
+  title: 占いとコーヒーの店
+  label: OUR SHARED PROJECT
+  caption: パートナーが占いで夢をかなえ、その隣でコーヒーを淹れる。二人で育てる仕事と居場所。
+  category: Relationship
+  status: dream
+  size: text
 
 - id: garage-house
   title: 英国風の3台ガレージハウス
@@ -144,9 +152,9 @@
   imageAlt: ツイードと紺のニットを着たシルバーグレーの髪の男性のイラスト
 
 - id: npo-next-generation
-  title: 誰かを助けた経験が、自信になる
-  label: NPO / LEGACY
-  caption: 全国へ広がり、施設出身の若者が支援と運営の中心へ進む。
+  title: 楽しそうな背中を、次の世代へ
+  label: KATAWARA / LEGACY
+  caption: 「いつでも助けます」という無償の愛を恩送りする。好きなことは、誰かの希望につながる。
   category: Contribution
   status: legacy
   size: wide
@@ -154,10 +162,26 @@
   imageAlt: 若者が主体となって円卓で話し合うNPO活動のイラスト
 
 - id: financial-freedom
-  title: 月収200万円
+  title: 選べる自由をつくる
   label: FINANCIAL FREEDOM
-  caption: 年収3,000万円、資産1億円。好きな仕事を、好きなだけ。
+  caption: 月収200万円・年収3,000万円・資産1億円。自分と大切な人の心配を取り除き、好きな活動を突き詰める燃料にする。
   category: Work
+  status: dream
+  size: text
+
+- id: fordays-connection
+  title: Fordaysで、人と楽しくつながる
+  label: RELATIONSHIP BUSINESS
+  caption: 人間関係を丁寧に見守り、連絡し、会い、イベントへ参加する。楽しさと信頼が一番の収入になる。
+  category: Work
+  status: next
+  size: text
+
+- id: nagomi-stream
+  title: 優月なごみに、人が集まる
+  label: LIVE & CREATE
+  caption: 配信へたくさんのリスナーが集まり、一緒に笑い、楽しさと表現が広く届く。
+  category: Expression
   status: dream
   size: text
 
@@ -170,9 +194,9 @@
   size: text
 
 - id: values
-  title: 優しさと、技術力
+  title: 必要とされ、特別なことを成し遂げる
   label: VALUES
-  caption: 知的好奇心、社会貢献、ITの技術。尊敬される人物であること。
+  caption: 技術と知識を自分の力で形にする。「やってきたことは間違いではなかった」と言える結果を残す。
   category: Self
   status: legacy
   size: text

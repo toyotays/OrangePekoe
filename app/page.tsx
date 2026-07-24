@@ -6,7 +6,7 @@ const modules = [
   { href: "/health/", label: "Health", copy: "身体の変化を、数字で静かに見つめる。", icon: HealthIcon, tone: "sage" },
   { href: "/timeline/", label: "Timeline", copy: "節目と日々の積み重ねを、一つの物語に。", icon: TimelineIcon, tone: "navy" },
   { href: "/wardrobe/", label: "Wardrobe", copy: "長く付き合う品と、その手入れの記録。", icon: WardrobeIcon, tone: "brown" },
-  { href: "/vision/", label: "Vision", copy: "次の一手から遠い夢まで、進む方角を一枚に。", icon: VisionIcon, tone: "black" },
+  { href: "/vision/", label: "Vision", copy: "好きなこと、自由、恩送り。自分が進む方角を言葉に。", icon: VisionIcon, tone: "black" },
 ];
 
 export default function Home() {
