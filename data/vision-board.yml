@@ -1,0 +1,178 @@
+# 1項目につき1つの願いを置きます。
+# 画像はAIにコラージュさせず、WEB側のgridで組み合わせます。
+# status: now / next / dream / legacy
+# size: standard / wide / tall / hero / text
+
+- id: formula-practice
+  title: フォーミュラを走る
+  label: CURRENT REALITY
+  caption: 夢ではなく、すでに始まっている現在地。
+  category: Racing
+  status: now
+  size: hero
+  image: /vision/00-formula-practice.webp
+  imageAlt: 白と赤のフォーミュラカーでサーキットを走る現在の練習風景
+
+- id: couple-britain
+  title: パートナーと世界を旅する
+  label: TOGETHER
+  caption: イギリスから始まり、フランス、ドイツ、台湾、韓国、カナダへ。
+  category: Relationship
+  status: dream
+  size: wide
+  image: /vision/tiles/couple-britain.webp
+  imageAlt: 英国の街で笑顔を見せるシルバーグレーの髪の男性と眼鏡の女性のイラスト
+
+- id: garage-house
+  title: 英国風の3台ガレージハウス
+  label: HOME
+  caption: 郊外で、好きな車と静かに暮らす。
+  category: Life
+  status: dream
+  size: wide
+  image: /vision/tiles/garage-house.webp
+  imageAlt: 三つのガレージ扉を備えた英国風の石造り住宅
+
+- id: super-fj
+  title: Super FJ
+  label: NEXT CATEGORY
+  caption: 現在の練習から、次のカテゴリーへ。
+  category: Racing
+  status: next
+  size: standard
+  image: /vision/tiles/super-fj.webp
+  imageAlt: 赤いラインの白いSuper FJが単独でサーキットを走る姿
+
+- id: formula-4
+  title: Formula 4
+  label: FUTURE CATEGORY
+  caption: 技術、体力、環境を整え、選択肢に入る未来。
+  category: Racing
+  status: dream
+  size: standard
+  image: /vision/tiles/formula-4.webp
+  imageAlt: ハローを備えた白と黒のF4マシンが単独でサーキットを走る姿
+
+- id: lotus-elise
+  title: Lotus Elise
+  label: LIGHTNESS
+  caption: 英国の軽さを、日常の道で味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/lotus-elise.webp
+  imageAlt: 英国の田園道路にたたずむブリティッシュグリーンのロータス・エリーゼ
+
+- id: cayman-gt4
+  title: Cayman GT4
+  label: PRECISION
+  caption: 公道とサーキットを高い精度でつなぐ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/cayman-gt4.webp
+  imageAlt: 欧州のサーキットパドックに置かれたグレーのケイマンGT4
+
+- id: mx5-roadster
+  title: MX-5 Roadster
+  label: OPEN AIR
+  caption: ソウルレッド、黒幌、タンレザー。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/mx5-roadster.webp
+  imageAlt: 海辺に置かれたソウルレッドで黒幌とタンレザーのロードスター
+
+- id: caterham-seven
+  title: Caterham Seven
+  label: PURE DRIVE
+  caption: 機械と身体が直接つながる英国の一台。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/caterham-seven.webp
+  imageAlt: 英国の田舎道に置かれた緑色のケータハム7
+
+- id: bmw-m2
+  title: BMW M2
+  label: DAILY POWER
+  caption: 日常性の中にある、力強い走り。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/bmw-m2.webp
+  imageAlt: 山岳路に置かれた青いBMW M2
+
+- id: alpine-a110
+  title: Alpine A110
+  label: MODERN LIGHTNESS
+  caption: 2017年以降の新世代A110。その軽快さと美しさ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/alpine-a110.webp
+  imageAlt: フレンチアルプスに置かれた現行世代の青いAlpine A110
+
+- id: maserati-granturismo
+  title: Maserati GranTurismo
+  label: GRAND TOUR
+  caption: 長い旅を、優雅なGTとともに。
+  category: Cars
+  status: dream
+  size: wide
+  image: /vision/tiles/maserati-granturismo.webp
+  imageAlt: 欧州のホテル前に置かれた深いバーガンディのMaserati GranTurismo
+
+- id: bac-mono
+  title: BAC Mono
+  label: ONE SEAT
+  caption: 公道とサーキットを、一人乗りの純度でつなぐ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/bac-mono.webp
+  imageAlt: サーキットのピットレーンに置かれた黒いBAC Mono
+
+- id: british-self
+  title: 若く、健康で、品よく
+  label: THE PERSON
+  caption: 細マッチョの身体、英国風カジュアル、優しさと知的好奇心。
+  category: Self
+  status: next
+  size: tall
+  image: /vision/tiles/british-self.webp
+  imageAlt: ツイードと紺のニットを着たシルバーグレーの髪の男性のイラスト
+
+- id: npo-next-generation
+  title: 誰かを助けた経験が、自信になる
+  label: NPO / LEGACY
+  caption: 全国へ広がり、施設出身の若者が支援と運営の中心へ進む。
+  category: Contribution
+  status: legacy
+  size: wide
+  image: /vision/tiles/npo-next-generation.webp
+  imageAlt: 若者が主体となって円卓で話し合うNPO活動のイラスト
+
+- id: financial-freedom
+  title: 月収200万円
+  label: FINANCIAL FREEDOM
+  caption: 年収3,000万円、資産1億円。好きな仕事を、好きなだけ。
+  category: Work
+  status: dream
+  size: text
+
+- id: destinations
+  title: UK · FR · DE · TW · KR · CA
+  label: GRAND TOUR
+  caption: イギリス、フランス、ドイツ、台湾、韓国、カナダ。ニュルブルクリンクも走る。
+  category: Travel
+  status: dream
+  size: text
+
+- id: values
+  title: 優しさと、技術力
+  label: VALUES
+  caption: 知的好奇心、社会貢献、ITの技術。尊敬される人物であること。
+  category: Self
+  status: legacy
+  size: text

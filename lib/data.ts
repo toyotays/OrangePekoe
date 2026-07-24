@@ -33,6 +33,26 @@ export type VisionChapter = {
   milestones: VisionMilestone[];
 };
 
+export type VisionBoardItem = {
+  id: string;
+  title: string;
+  label: string;
+  caption: string;
+  category:
+    | "Racing"
+    | "Cars"
+    | "Relationship"
+    | "Life"
+    | "Self"
+    | "Contribution"
+    | "Work"
+    | "Travel";
+  status: "now" | "next" | "dream" | "legacy";
+  size: "standard" | "wide" | "tall" | "hero" | "text";
+  image?: string;
+  imageAlt?: string;
+};
+
 function readYaml<T>(filename: string): T {
   const source = fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8");
   return YAML.parse(source) as T;
@@ -48,4 +68,8 @@ export function getWardrobe(): WardrobeItem[] {
 
 export function getVisionChapters(): VisionChapter[] {
   return readYaml<VisionChapter[]>("vision.yml");
+}
+
+export function getVisionBoardItems(): VisionBoardItem[] {
+  return readYaml<VisionBoardItem[]>("vision-board.yml");
 }
