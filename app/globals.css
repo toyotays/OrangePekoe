@@ -305,8 +305,8 @@ nav { display: flex; align-items: center; gap: 7px; }
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(0deg, rgba(5,13,11,.94), rgba(5,13,11,.06) 72%),
-    linear-gradient(90deg, rgba(5,13,11,.25), transparent 58%);
+    linear-gradient(0deg, rgba(5,13,11,.98) 0%, rgba(5,13,11,.88) 32%, rgba(5,13,11,.2) 76%),
+    linear-gradient(90deg, rgba(5,13,11,.38), transparent 64%);
 }
 .vision-tile::before {
   content: "";
@@ -328,25 +328,27 @@ nav { display: flex; align-items: center; gap: 7px; }
   justify-content: space-between;
   gap: 20px;
   color: var(--board-gold);
-  font: 700 8px ui-sans-serif, system-ui;
+  font: 700 9px ui-sans-serif, system-ui;
   letter-spacing: .18em;
   text-transform: uppercase;
 }
-.vision-tile-meta small { color: rgba(244,239,228,.52); font: inherit; }
+.vision-tile-meta small { color: rgba(244,239,228,.78); font: inherit; }
 .vision-tile h2 {
   margin: 14px 0 8px;
   color: #fffaf0;
-  font-size: clamp(25px, 2.3vw, 39px);
+  font-size: clamp(28px, 2.5vw, 42px);
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: -.03em;
+  text-shadow: 0 2px 16px rgba(0,0,0,.7);
 }
 .vision-tile p {
   max-width: 560px;
   margin: 0;
-  color: rgba(244,239,228,.7);
-  font-size: 11px;
-  line-height: 1.8;
+  color: rgba(255,250,240,.92);
+  font-size: 14px;
+  line-height: 1.72;
+  text-shadow: 0 1px 10px rgba(0,0,0,.8);
 }
 .vision-tile-monogram {
   position: absolute;
@@ -505,7 +507,7 @@ footer { text-align: center; padding: 55px 20px; background: var(--ivory); color
   .wardrobe-card { grid-template-columns: 105px 1fr; }.wardrobe-card > div:last-child { padding: 22px 18px; }.item-visual svg { width: 42px; height: 42px; }
   .vision-page { padding-bottom: 70px; }.vision-hero h1 { font-size: 68px; }.vision-brief { padding: 28px; }.vision-lane { padding: 24px 18px; }.vision-card-list { grid-template-columns: 1fr; }.vision-card { min-height: 250px; }.vision-review h2 { font-size: 28px; }
   .vision-story-intro { min-height: 520px; padding-block: 70px 55px; }.vision-story-intro h1 { font-size: 68px; }.vision-story-image { min-height: 230px; }.vision-story-heading h2 { font-size: 39px; }.vision-story-panel { padding: 22px; }.vision-story-milestones { grid-template-columns: 1fr; }.vision-story-milestones section { min-height: 0; }.vision-story-closing blockquote { font-size: 27px; }
-  .vision-board-hero { min-height: 510px; padding-block: 65px 55px; }.vision-board-hero h1 { font-size: 68px; }.vision-creed { padding-block: 80px; }.vision-creed blockquote { margin-bottom: 50px; font-size: 27px; }.vision-creed-grid { grid-template-columns: 1fr; }.vision-creed-grid article { min-height: 0; border-right: 0; border-bottom: 1px solid rgba(23,44,39,.18); }.vision-creed-grid article:last-child { border-bottom: 0; }.vision-collage { padding-block: 45px 80px; grid-template-columns: 1fr; }.vision-tile, .vision-tile.tile-wide, .vision-tile.tile-hero, .vision-tile.tile-tall, .vision-tile.tile-text { min-height: 390px; grid-column: span 1; }.vision-tile.tile-hero { min-height: 500px; }.vision-tile-copy { padding: 23px; }.vision-tile h2 { font-size: 29px; }.vision-review-strip { padding: 80px 0; }.vision-review-strip h2 { margin-bottom: 40px; }.vision-path { padding-block: 85px; }.vision-board-closing { padding: 90px 0; }
+  .vision-board-hero { min-height: 510px; padding-block: 65px 55px; }.vision-board-hero h1 { font-size: 68px; }.vision-creed { padding-block: 80px; }.vision-creed blockquote { margin-bottom: 50px; font-size: 27px; }.vision-creed-grid { grid-template-columns: 1fr; }.vision-creed-grid article { min-height: 0; border-right: 0; border-bottom: 1px solid rgba(23,44,39,.18); }.vision-creed-grid article:last-child { border-bottom: 0; }.vision-collage { padding-block: 45px 80px; grid-template-columns: 1fr; }.vision-tile, .vision-tile.tile-wide, .vision-tile.tile-hero, .vision-tile.tile-tall, .vision-tile.tile-text { min-height: 390px; grid-column: span 1; }.vision-tile.tile-hero { min-height: 500px; }.vision-tile-copy { padding: 25px; }.vision-tile h2 { font-size: 32px; }.vision-tile p { font-size: 14px; line-height: 1.75; }.vision-review-strip { padding: 80px 0; }.vision-review-strip h2 { margin-bottom: 40px; }.vision-path { padding-block: 85px; }.vision-board-closing { padding: 90px 0; }
 }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

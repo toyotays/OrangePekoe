@@ -200,3 +200,103 @@
   category: Self
   status: legacy
   size: text
+
+- id: refrigerator
+  title: 冷蔵庫
+  label: HOME COMFORT
+  caption: 食材を気持ちよく収め、毎日の暮らしを整える。
+  category: Life
+  status: dream
+  size: wide
+  image: /vision/tiles/refrigerator.webp
+  imageAlt: 深緑の英国風キッチンに置かれた大型のステンレス製冷蔵庫
+
+- id: freezer-chest
+  title: 冷凍ストッカー
+  label: EXTRA CAPACITY
+  caption: 好きな食材を十分に備え、時間と食卓に余裕をつくる。
+  category: Life
+  status: dream
+  size: standard
+  image: /vision/tiles/freezer-chest.webp
+  imageAlt: 落ち着いたパントリーに置かれた白い冷凍ストッカー
+
+- id: washlet
+  title: ウォシュレット
+  label: DAILY COMFORT
+  caption: 清潔で快適な設備を、当たり前の暮らしにする。
+  category: Life
+  status: dream
+  size: standard
+  image: /vision/tiles/washlet.webp
+  imageAlt: 深緑とアイボリーで整えた浴室にある温水洗浄便座
+
+- id: racing-simulator
+  title: レースシミュレーター
+  label: PRACTICE TO WIN
+  caption: 走れない日も練習し、操作と判断を磨いて勝利へ近づく。
+  category: Racing
+  status: dream
+  size: wide
+  image: /vision/tiles/racing-simulator.webp
+  imageAlt: 深緑の専用室に設置された3画面の本格的なレースシミュレーター
+
+- id: streaming-room
+  title: 配信専用部屋
+  label: CREATOR ROOM
+  caption: 優月なごみの表現に集中でき、多くのリスナーが集まる専用空間。
+  category: Expression
+  status: dream
+  size: wide
+  image: /vision/tiles/streaming-room.webp
+  imageAlt: マイクやカメラや照明を備えた落ち着いた配信専用スタジオ
+
+- id: npo-office
+  title: NPO事務所
+  label: KATAWARA BASE
+  caption: 仲間が集まり、活動を計画し、安心して続けられる「かたわら」の拠点。
+  category: Contribution
+  status: dream
+  size: wide
+  image: /vision/tiles/npo-office.webp
+  imageAlt: 木の机と収納を備えた温かく実用的なNPO活動の事務所
+
+- id: 3d-printer
+  title: 3Dプリンター
+  label: MAKE & TEST
+  caption: 思いついた形をその日のうちに試作し、ものづくりの幅を広げる。
+  category: Making
+  status: dream
+  size: standard
+  image: /vision/tiles/3d-printer.webp
+  imageAlt: 木の作業台で試作品を造形している密閉型3Dプリンター
+
+- id: uv-printer
+  title: UVプリンター
+  label: PRINT ORIGINAL
+  caption: 色とデザインを素材へ直接届け、オリジナルの品を形にする。
+  category: Making
+  status: dream
+  size: standard
+  image: /vision/tiles/uv-printer.webp
+  imageAlt: 木の作業台でアクリル板へ模様を印刷している平板UVプリンター
+
+- id: laser-cutter
+  title: レーザーカッター
+  label: CUT & CREATE
+  caption: 木やアクリルを精密に切り、アイデアを作品と道具へ変える。
+  category: Making
+  status: dream
+  size: standard
+  image: /vision/tiles/laser-cutter.webp
+  imageAlt: 安全カバーの中で合板を切断している据え置き型レーザーカッター
+
+- id: delonghi-espresso
+  title: デロンギのエスプレッソマシーン
+  label: COFFEE TOGETHER
+  caption: 一杯ずつ丁寧に淹れ、パートナーの占いカフェと二人の日常を支える。
+  category: Life
+  status: dream
+  size: standard
+  image: /vision/tiles/delonghi-espresso.webp
+  imageAlt: 深緑と木目のカフェカウンターに置かれた全自動エスプレッソマシーン

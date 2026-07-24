@@ -47,7 +47,8 @@ export type VisionBoardItem = {
     | "Contribution"
     | "Work"
     | "Expression"
-    | "Travel";
+    | "Travel"
+    | "Making";
   status: "now" | "next" | "dream" | "legacy";
   size: "standard" | "wide" | "tall" | "hero" | "text";
   image?: string;
