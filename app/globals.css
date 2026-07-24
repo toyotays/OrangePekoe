@@ -350,6 +350,32 @@ nav { display: flex; align-items: center; gap: 7px; }
   line-height: 1.72;
   text-shadow: 0 1px 10px rgba(0,0,0,.8);
 }
+.vision-tile:not(.tile-text) .vision-tile-meta,
+.vision-tile:not(.tile-text) h2,
+.vision-tile:not(.tile-text) p {
+  paint-order: stroke fill;
+}
+.vision-tile:not(.tile-text) .vision-tile-meta {
+  -webkit-text-stroke: .45px rgba(2,8,6,.92);
+  text-shadow:
+    -1px -1px 2px rgba(2,8,6,.95),
+    1px 1px 3px rgba(2,8,6,.95);
+}
+.vision-tile:not(.tile-text) h2 {
+  -webkit-text-stroke: 1px rgba(2,8,6,.92);
+  text-shadow:
+    -1px -1px 2px rgba(2,8,6,.96),
+    1px -1px 2px rgba(2,8,6,.96),
+    -1px 1px 2px rgba(2,8,6,.96),
+    1px 1px 2px rgba(2,8,6,.96),
+    0 3px 18px rgba(0,0,0,.85);
+}
+.vision-tile:not(.tile-text) p {
+  -webkit-text-stroke: .35px rgba(2,8,6,.9);
+  text-shadow:
+    -1px -1px 2px rgba(2,8,6,.92),
+    1px 1px 3px rgba(2,8,6,.95);
+}
 .vision-tile-monogram {
   position: absolute;
   top: 22px;
