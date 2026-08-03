@@ -177,6 +177,16 @@
   status: next
   size: text
 
+- id: gacha-shop
+  title: ガチャショップを経営する
+  label: PLAYFUL BUSINESS
+  caption: 選ぶ楽しさと発見が集まる店を育て、好きなことを持続する事業へつなげる。
+  category: Work
+  status: dream
+  size: wide
+  image: /vision/tiles/gacha-shop.webp
+  imageAlt: 深緑と木目で整えられたカプセルトイ専門店の店内
+
 - id: nagomi-stream
   title: 優月なごみに、人が集まる
   label: LIVE & CREATE
@@ -184,6 +194,16 @@
   category: Expression
   status: dream
   size: text
+
+- id: writing-activity
+  title: 執筆活動を続ける
+  label: WRITE & PUBLISH
+  caption: 思考と経験を言葉にし、読者へ届く本や記事として継続的に世に出す。
+  category: Expression
+  status: next
+  size: wide
+  image: /vision/tiles/writing-activity.webp
+  imageAlt: 深緑の書斎でノートパソコンと原稿と万年筆を広げた執筆机
 
 - id: destinations
   title: UK · FR · DE · TW · KR · CA
