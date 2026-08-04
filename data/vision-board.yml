@@ -141,6 +141,26 @@
   image: /vision/tiles/bac-mono.webp
   imageAlt: サーキットのピットレーンに置かれた黒いBAC Mono
 
+- id: gr-gt
+  title: GR GT
+  label: RACE-BRED FLAGSHIP
+  caption: 低重心とモータースポーツの技術を、公道で味わう未来。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/gr-gt.webp
+  imageAlt: 日本の山岳テストロードにたたずむ低くワイドなダークグレーのGR GT
+
+- id: porsche-911-carrera-t
+  title: 911 Carrera T
+  label: PURE MANUAL
+  caption: 軽さと6速MTで、911のピュアな走りを日常から楽しむ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/porsche-911-carrera-t.webp
+  imageAlt: 欧州の山岳路にたたずむシルバーグレーの911 Carrera Tクーペ
+
 - id: british-self
   title: 若く、健康で、品よく
   label: THE PERSON
