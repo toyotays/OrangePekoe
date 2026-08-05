@@ -161,6 +161,116 @@
   image: /vision/tiles/porsche-911-carrera-t.webp
   imageAlt: 欧州の山岳路にたたずむシルバーグレーの911 Carrera Tクーペ
 
+- id: fairlady-z-2017
+  title: Fairlady Z Version ST
+  label: 3.7 / 6MT / 2017
+  caption: 3.7リッターV6と6MT。2017年式Z34を、自分の手で操る。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/fairlady-z-2017.webp
+  imageAlt: 日本の山岳路にたたずむ白い2017年式Fairlady Z Version ST
+
+- id: alfa-romeo-4c
+  title: Alfa Romeo 4C
+  label: LIGHTWEIGHT ITALIAN
+  caption: 軽さとミッドシップの純度を、情熱的なデザインで味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/alfa-romeo-4c.webp
+  imageAlt: イタリアの丘陵路にたたずむ赤いAlfa Romeo 4Cクーペ
+
+- id: alfa-romeo-spider-2008
+  title: Alfa Romeo Spider 2008
+  label: OPEN ITALIAN
+  caption: 939系Spider。美しい3連ヘッドランプと、屋根を開けて走る時間。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/alfa-romeo-spider-2008.webp
+  imageAlt: 海沿いの道にたたずむ赤い2008年式Alfa Romeo Spider 939
+
+- id: corvette-c8
+  title: Corvette C8
+  label: MID-ENGINE AMERICA
+  caption: アメリカンV8とミッドシップ。その大胆な進化を楽しむ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/corvette-c8.webp
+  imageAlt: アメリカの荒野の道にたたずむ青いCorvette C8 Stingray
+
+- id: aston-martin-vantage
+  title: Aston Martin Vantage
+  label: BRITISH MUSCLE
+  caption: 英国の品格と力強さを、一台のスポーツカーで味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/aston-martin-vantage.webp
+  imageAlt: 英国の邸宅前にたたずむ深緑の現行Aston Martin Vantage
+
+- id: renault-5-turbo-3e
+  title: RENAULT 5 TURBO 3E
+  label: ELECTRIC MINI-SUPERCAR
+  caption: 小さな車体に、未来の技術とラリーの熱狂を凝縮する。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/renault-5-turbo-3e.webp
+  imageAlt: コルシカの山岳路にたたずむ黄色と白のRENAULT 5 TURBO 3E
+
+- id: lamborghini-huracan
+  title: Lamborghini Huracán
+  label: NATURALLY ASPIRATED
+  caption: 鋭いデザインとV10の高揚感を、全身で味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/lamborghini-huracan.webp
+  imageAlt: 北イタリアの山岳路にたたずむ黄色いLamborghini Huracán EVO
+
+- id: ferrari-portofino
+  title: Ferrari Portofino
+  label: OPEN GRAND TOUR
+  caption: 屋根を開け、パートナーと海沿いの長い旅へ出る。
+  category: Cars
+  status: dream
+  size: wide
+  image: /vision/tiles/ferrari-portofino.webp
+  imageAlt: イタリアの海岸線にたたずむ赤いFerrari Portofino
+
+- id: maserati-mc20
+  title: Maserati MC20
+  label: ITALIAN SUPERCAR
+  caption: 美しさと技術を研ぎ澄ました、ミッドシップの特別な一台。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/maserati-mc20.webp
+  imageAlt: モデナの建築空間にたたずむ白いMaserati MC20クーペ
+
+- id: mx5-nd-pop-up-oneoff
+  title: ND Roadster Pop-up
+  label: ONE-OFF RETRACTABLE
+  caption: NDを専門ショップでワンオフ改造。リトラクタブルライトを現代に蘇らせる。
+  category: Cars
+  status: dream
+  size: wide
+  image: /vision/tiles/mx5-nd-pop-up-oneoff.webp
+  imageAlt: 専門ショップ前で角型リトラクタブルライトを開いたソウルレッドのND Roadster
+
+- id: renault-kangoo-npo
+  title: NPOのRenault Kangoo
+  label: MOBILE SUPPORT
+  caption: 支援物資と仲間を載せ、必要な場所へ走る活動車。
+  category: Contribution
+  status: next
+  size: wide
+  image: /vision/tiles/renault-kangoo-npo.webp
+  imageAlt: 地域施設前で支援物資を積んだ黄色いRenault Kangoo
+
 - id: british-self
   title: 若く、健康で、品よく
   label: THE PERSON
