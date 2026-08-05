@@ -29,7 +29,19 @@
   caption: パートナーが占いで夢をかなえ、その隣でコーヒーを淹れる。二人で育てる仕事と居場所。
   category: Relationship
   status: dream
-  size: text
+  size: wide
+  image: /vision/tiles/fortune-coffee-cafe.webp
+  imageAlt: 深緑と木目の店内で女性が占いをし、その隣で男性がコーヒーを淹れる水彩イラスト
+
+- id: groundtour
+  title: GroundTour
+  label: OVERLAND STORY
+  caption: 車で土地を巡り、人・景色・文化と出会う。二人の旅を物語として残す。
+  category: Travel
+  status: dream
+  size: wide
+  image: /vision/tiles/groundtour.webp
+  imageAlt: 海と山を望む道で地図を広げ、深緑のGTカーと旅を続ける二人の水彩イラスト
 
 - id: garage-house
   title: 英国風の3台ガレージハウス
