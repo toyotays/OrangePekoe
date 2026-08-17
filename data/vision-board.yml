@@ -215,6 +215,26 @@
   image: /vision/tiles/gr-gt.webp
   imageAlt: 日本の山岳テストロードにたたずむ低くワイドなダークグレーのGR GT
 
+- id: toyota-celica-future
+  title: Toyota Celica（開発中）
+  label: GT-FOUR SPIRIT
+  caption: 発売時期も最終デザインも未確定。ラリーの血統を継ぐ次世代Celicaを待つ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/toyota-celica-future.webp
+  imageAlt: 雨上がりの日本の山岳路にたたずむ白い次世代Toyota Celicaの非公式イメージ
+
+- id: toyota-mr2-future
+  title: Toyota MR2（開発中）
+  label: MIDSHIP RETURN
+  caption: 発売時期も最終デザインも未確定。軽く俊敏なミッドシップの復活を待つ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/toyota-mr2-future.webp
+  imageAlt: 夕暮れの海岸道路にたたずむ赤い次世代Toyota MR2の非公式イメージ
+
 - id: porsche-911-carrera-t
   title: 911 Carrera T
   label: PURE MANUAL
