@@ -1,6 +1,7 @@
 # 1項目につき1つの願いを置きます。
 # 画像はAIにコラージュさせず、WEB側のgridで組み合わせます。
 # status: now / next / dream / legacy
+# feasibility: high / medium / long（省略時はlong）
 # size: standard / wide / tall / hero / text
 
 - id: formula-practice
@@ -9,6 +10,7 @@
   caption: 上手くなり、勝つ。昨日の自分を越え続ける、すでに始まっている挑戦。
   category: Racing
   status: now
+  feasibility: high
   size: hero
   image: /vision/00-formula-practice.webp
   imageAlt: 白と赤のフォーミュラカーでサーキットを走る現在の練習風景
@@ -19,6 +21,7 @@
   caption: イギリスから世界へ。二人で常に何かへ挑戦し、一緒に飛び回る。
   category: Relationship
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/couple-britain.webp
   imageAlt: 英国の街で笑顔を見せるシルバーグレーの髪の男性と眼鏡の女性のイラスト
@@ -29,6 +32,7 @@
   caption: あしげの馬と心を通わせ、英国の田園を穏やかに駆ける。
   category: Relationship
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/partner-ashige-riding.webp
   imageAlt: 英国の田園であしげの馬に乗る眼鏡の女性の水彩イラスト
@@ -39,6 +43,7 @@
   caption: パートナーが占いで夢をかなえ、その隣でコーヒーを淹れる。二人で育てる仕事と居場所。
   category: Relationship
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/fortune-coffee-cafe.webp
   imageAlt: 深緑と木目の店内で女性が占いをし、その隣で男性がコーヒーを淹れる水彩イラスト
@@ -49,6 +54,7 @@
   caption: 車で土地を巡り、人・景色・文化と出会う。二人の旅を物語として残す。
   category: Travel
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/groundtour.webp
   imageAlt: 海と山を望む道で地図を広げ、深緑のGTカーと旅を続ける二人の水彩イラスト
@@ -69,6 +75,7 @@
   caption: 現在の練習から、前後ウイングを備えたKKS-II系の次のカテゴリーへ。
   category: Racing
   status: next
+  feasibility: medium
   size: standard
   image: /vision/tiles/super-fj.webp
   imageAlt: 前後の小型ウイングとロールフープを備えた白と赤のSuper FJがサーキットを走る姿
@@ -89,6 +96,7 @@
   caption: 英国の軽さを、日常の道で味わう。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/lotus-elise.webp
   imageAlt: 英国の田園道路にたたずむブリティッシュグリーンのロータス・エリーゼ
@@ -99,6 +107,7 @@
   caption: 小さく軽い英国の名車を、屋根を開けて味わう。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/lotus-elan-s4.webp
   imageAlt: 雨上がりの英国の田園路にたたずむ深緑のLotus Elan S4ロードスター
@@ -129,6 +138,7 @@
   caption: ソウルレッド、黒幌、タンレザー。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/mx5-roadster.webp
   imageAlt: 海辺に置かれたソウルレッドで黒幌とタンレザーのロードスター
@@ -139,6 +149,7 @@
   caption: 機械と身体が直接つながる英国の一台。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/caterham-seven.webp
   imageAlt: 英国の田舎道に置かれた緑色のケータハム7
@@ -159,6 +170,7 @@
   caption: E92の4.0リッター自然吸気V8を、日常と山道で味わう。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/bmw-m3-2012.webp
   imageAlt: アルプスの山岳路にたたずむ白い2012年式BMW M3 E92クーペ
@@ -229,6 +241,7 @@
   caption: 3.7リッターV6と6MT。2017年式Z34を、自分の手で操る。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/fairlady-z-2017.webp
   imageAlt: 日本の山岳路にたたずむ白い2017年式Fairlady Z Version ST
@@ -249,6 +262,7 @@
   caption: 939系Spider。美しい3連ヘッドランプと、屋根を開けて走る時間。
   category: Cars
   status: dream
+  feasibility: medium
   size: standard
   image: /vision/tiles/alfa-romeo-spider-2008.webp
   imageAlt: 海沿いの道にたたずむ赤い2008年式Alfa Romeo Spider 939
@@ -329,6 +343,7 @@
   caption: 支援物資と仲間を載せ、必要な場所へ走る活動車。
   category: Contribution
   status: next
+  feasibility: medium
   size: wide
   image: /vision/tiles/renault-kangoo-npo.webp
   imageAlt: 地域施設前で支援物資を積んだ黄色いRenault Kangoo
@@ -339,6 +354,7 @@
   caption: 細マッチョの身体、英国風カジュアル、優しさと知的好奇心。
   category: Self
   status: next
+  feasibility: high
   size: tall
   image: /vision/tiles/british-self.webp
   imageAlt: ツイードと紺のニットを着たシルバーグレーの髪の男性のイラスト
@@ -367,6 +383,7 @@
   caption: 人間関係を丁寧に見守り、連絡し、会い、イベントへ参加する。楽しさと信頼が一番の収入になる。
   category: Work
   status: next
+  feasibility: high
   size: text
 
 - id: gacha-shop
@@ -375,6 +392,7 @@
   caption: 選ぶ楽しさと発見が集まる店を育て、好きなことを持続する事業へつなげる。
   category: Work
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/gacha-shop.webp
   imageAlt: 深緑と木目で整えられたカプセルトイ専門店の店内
@@ -385,6 +403,7 @@
   caption: 配信へたくさんのリスナーが集まり、一緒に笑い、楽しさと表現が広く届く。
   category: Expression
   status: dream
+  feasibility: high
   size: text
 
 - id: writing-activity
@@ -393,6 +412,7 @@
   caption: 思考と経験を言葉にし、読者へ届く本や記事として継続的に世に出す。
   category: Expression
   status: next
+  feasibility: high
   size: wide
   image: /vision/tiles/writing-activity.webp
   imageAlt: 深緑の書斎でノートパソコンと原稿と万年筆を広げた執筆机
@@ -403,6 +423,7 @@
   caption: イギリス、フランス、ドイツ、台湾、韓国、カナダ。ニュルブルクリンクも走る。
   category: Travel
   status: dream
+  feasibility: medium
   size: text
 
 - id: values
@@ -411,6 +432,7 @@
   caption: 技術と知識を自分の力で形にする。「やってきたことは間違いではなかった」と言える結果を残す。
   category: Self
   status: legacy
+  feasibility: high
   size: text
 
 - id: refrigerator
@@ -419,6 +441,7 @@
   caption: 食材を気持ちよく収め、毎日の暮らしを整える。
   category: Life
   status: dream
+  feasibility: high
   size: wide
   image: /vision/tiles/refrigerator.webp
   imageAlt: 深緑の英国風キッチンに置かれた大型のステンレス製冷蔵庫
@@ -429,6 +452,7 @@
   caption: 好きな食材を十分に備え、時間と食卓に余裕をつくる。
   category: Life
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/freezer-chest.webp
   imageAlt: 落ち着いたパントリーに置かれた白い冷凍ストッカー
@@ -439,6 +463,7 @@
   caption: 清潔で快適な設備を、当たり前の暮らしにする。
   category: Life
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/washlet.webp
   imageAlt: 深緑とアイボリーで整えた浴室にある温水洗浄便座
@@ -449,6 +474,7 @@
   caption: 走れない日も練習し、操作と判断を磨いて勝利へ近づく。
   category: Racing
   status: dream
+  feasibility: high
   size: wide
   image: /vision/tiles/racing-simulator.webp
   imageAlt: 深緑の専用室に設置された3画面の本格的なレースシミュレーター
@@ -459,6 +485,7 @@
   caption: 優月なごみの表現に集中でき、多くのリスナーが集まる専用空間。
   category: Expression
   status: dream
+  feasibility: high
   size: wide
   image: /vision/tiles/streaming-room.webp
   imageAlt: マイクやカメラや照明を備えた落ち着いた配信専用スタジオ
@@ -469,6 +496,7 @@
   caption: 仲間が集まり、活動を計画し、安心して続けられる「かたわら」の拠点。
   category: Contribution
   status: dream
+  feasibility: medium
   size: wide
   image: /vision/tiles/npo-office.webp
   imageAlt: 木の机と収納を備えた温かく実用的なNPO活動の事務所
@@ -479,6 +507,7 @@
   caption: 思いついた形をその日のうちに試作し、ものづくりの幅を広げる。
   category: Making
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/3d-printer.webp
   imageAlt: 木の作業台で試作品を造形している密閉型3Dプリンター
@@ -489,6 +518,7 @@
   caption: 色とデザインを素材へ直接届け、オリジナルの品を形にする。
   category: Making
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/uv-printer.webp
   imageAlt: 木の作業台でアクリル板へ模様を印刷している平板UVプリンター
@@ -499,6 +529,7 @@
   caption: 木やアクリルを精密に切り、アイデアを作品と道具へ変える。
   category: Making
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/laser-cutter.webp
   imageAlt: 安全カバーの中で合板を切断している据え置き型レーザーカッター
@@ -509,6 +540,7 @@
   caption: 一杯ずつ丁寧に淹れ、パートナーの占いカフェと二人の日常を支える。
   category: Life
   status: dream
+  feasibility: high
   size: standard
   image: /vision/tiles/delonghi-espresso.webp
   imageAlt: 深緑と木目のカフェカウンターに置かれた全自動エスプレッソマシーン

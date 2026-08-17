@@ -12,8 +12,25 @@ const statusLabels = {
   legacy: "次へ手渡す",
 } as const;
 
+const feasibilityOrder = { high: 0, medium: 1, long: 2 } as const;
+const statusOrder = { now: 0, next: 1, dream: 2, legacy: 3 } as const;
+
 export default function VisionBoardPage() {
-  const items = getVisionBoardItems();
+  const items = getVisionBoardItems()
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => {
+      const feasibilityDifference =
+        feasibilityOrder[a.item.feasibility ?? "long"] -
+        feasibilityOrder[b.item.feasibility ?? "long"];
+
+      if (feasibilityDifference !== 0) return feasibilityDifference;
+
+      const statusDifference =
+        statusOrder[a.item.status] - statusOrder[b.item.status];
+
+      return statusDifference || a.index - b.index;
+    })
+    .map(({ item }) => item);
 
   return (
     <main className="vision-board-page">
