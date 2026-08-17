@@ -23,6 +23,16 @@
   image: /vision/tiles/couple-britain.webp
   imageAlt: 英国の街で笑顔を見せるシルバーグレーの髪の男性と眼鏡の女性のイラスト
 
+- id: partner-ashige-riding
+  title: パートナーがあしげの馬に乗る
+  label: RIDE TOGETHER
+  caption: あしげの馬と心を通わせ、英国の田園を穏やかに駆ける。
+  category: Relationship
+  status: dream
+  size: wide
+  image: /vision/tiles/partner-ashige-riding.webp
+  imageAlt: 英国の田園であしげの馬に乗る眼鏡の女性の水彩イラスト
+
 - id: fortune-cafe
   title: 占いとコーヒーの店
   label: OUR SHARED PROJECT
@@ -46,12 +56,12 @@
 - id: garage-house
   title: 英国風の3台ガレージハウス
   label: HOME
-  caption: 郊外で、好きな車と静かに暮らす。
+  caption: 3台を収め、そのうち1台はリビングのガラス越しに眺める。車と静かに暮らす家。
   category: Life
   status: dream
   size: wide
   image: /vision/tiles/garage-house.webp
-  imageAlt: 三つのガレージ扉を備えた英国風の石造り住宅
+  imageAlt: リビングのガラス越しに1台を眺められ、奥の2台と合わせて3台を収める英国風ガレージハウス
 
 - id: super-fj
   title: Super FJ
