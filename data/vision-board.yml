@@ -56,22 +56,22 @@
 - id: super-fj
   title: Super FJ
   label: NEXT CATEGORY
-  caption: 現在の練習から、次のカテゴリーへ。
+  caption: 現在の練習から、前後ウイングを備えたKKS-II系の次のカテゴリーへ。
   category: Racing
   status: next
   size: standard
   image: /vision/tiles/super-fj.webp
-  imageAlt: 赤いラインの白いSuper FJが単独でサーキットを走る姿
+  imageAlt: 前後の小型ウイングとロールフープを備えた白と赤のSuper FJがサーキットを走る姿
 
 - id: formula-4
   title: Formula 4
   label: FUTURE CATEGORY
-  caption: 技術、体力、環境を整え、選択肢に入る未来。
+  caption: 技術、体力、環境を整え、日本の現行MCS4-24へ挑戦する未来。
   category: Racing
   status: dream
   size: standard
   image: /vision/tiles/formula-4.webp
-  imageAlt: ハローを備えた白と黒のF4マシンが単独でサーキットを走る姿
+  imageAlt: ハローと前後ウイングを備えた白と黒の日本向けMCS4-24がサーキットを走る姿
 
 - id: lotus-elise
   title: Lotus Elise
@@ -83,6 +83,16 @@
   image: /vision/tiles/lotus-elise.webp
   imageAlt: 英国の田園道路にたたずむブリティッシュグリーンのロータス・エリーゼ
 
+- id: lotus-elan-s4
+  title: Lotus Elan S4
+  label: CLASSIC LIGHTNESS
+  caption: 小さく軽い英国の名車を、屋根を開けて味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/lotus-elan-s4.webp
+  imageAlt: 雨上がりの英国の田園路にたたずむ深緑のLotus Elan S4ロードスター
+
 - id: cayman-gt4
   title: Cayman GT4
   label: PRECISION
@@ -92,6 +102,16 @@
   size: standard
   image: /vision/tiles/cayman-gt4.webp
   imageAlt: 欧州のサーキットパドックに置かれたグレーのケイマンGT4
+
+- id: porsche-718-boxster-style-edition
+  title: 718 Boxster Style Edition
+  label: 2024 / 6MT
+  caption: グレー、黒い20インチ718 Spyderホイール、6MT。指定した一台を現実の目標へ。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/porsche-718-boxster-style-edition.webp
+  imageAlt: 富士山を望む海岸道路にたたずむグレーの2024年式718 Boxster Style Edition
 
 - id: mx5-roadster
   title: MX-5 Roadster
@@ -122,6 +142,16 @@
   size: standard
   image: /vision/tiles/bmw-m2.webp
   imageAlt: 山岳路に置かれた青いBMW M2
+
+- id: bmw-m3-2012
+  title: BMW M3 2012
+  label: NATURALLY ASPIRATED V8
+  caption: E92の4.0リッター自然吸気V8を、日常と山道で味わう。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/bmw-m3-2012.webp
+  imageAlt: アルプスの山岳路にたたずむ白い2012年式BMW M3 E92クーペ
 
 - id: alpine-a110
   title: Alpine A110
@@ -172,6 +202,16 @@
   size: standard
   image: /vision/tiles/porsche-911-carrera-t.webp
   imageAlt: 欧州の山岳路にたたずむシルバーグレーの911 Carrera Tクーペ
+
+- id: porsche-911-targa
+  title: 911 Targa
+  label: OPEN HERITAGE
+  caption: 象徴的なタルガバーと開放感で、海沿いの道を走る。
+  category: Cars
+  status: dream
+  size: standard
+  image: /vision/tiles/porsche-911-targa.webp
+  imageAlt: 海岸道路にたたずむ深緑の992世代Porsche 911 Targa
 
 - id: fairlady-z-2017
   title: Fairlady Z Version ST
