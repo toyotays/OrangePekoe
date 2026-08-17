@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import { VisionBoardGrid } from "@/components/vision-board-grid";
 import { getVisionBoardItems } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Vision Board" };
@@ -59,41 +59,7 @@ export default function VisionBoardPage() {
         </div>
       </nav>
 
-      <section className="vision-collage shell" aria-label="現在のビジョンボード">
-        {items.map((item, index) => (
-          <article
-            className={`vision-tile tile-${item.size} status-${item.status}`}
-            key={item.id}
-          >
-            {item.image ? (
-              <Image
-                src={item.image}
-                alt={item.imageAlt ?? ""}
-                fill
-                priority={index < 3}
-                sizes={
-                  item.size === "hero" || item.size === "wide"
-                    ? "(max-width: 720px) 100vw, 66vw"
-                    : "(max-width: 720px) 100vw, 33vw"
-                }
-              />
-            ) : (
-              <span className="vision-tile-monogram" aria-hidden="true">
-                {item.label.slice(0, 2)}
-              </span>
-            )}
-            <span className="vision-tile-shade" />
-            <div className="vision-tile-copy">
-              <div className="vision-tile-meta">
-                <span>{item.label}</span>
-                <small>{item.category}</small>
-              </div>
-              <h2>{item.title}</h2>
-              <p>{item.caption}</p>
-            </div>
-          </article>
-        ))}
-      </section>
+      <VisionBoardGrid items={items} />
 
       <section className="vision-review-strip">
         <div className="shell">
