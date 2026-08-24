@@ -5,6 +5,16 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: { default: "Orange Pekoe", template: "%s | Orange Pekoe" },
   description: "健康で信頼される大人としての成長を記録する、プライベートジャーナル。",
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
