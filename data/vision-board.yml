@@ -456,15 +456,15 @@
   size: text
 
 - id: refrigerator
-  title: 冷蔵庫
-  label: HOME COMFORT
-  caption: 食材を気持ちよく収め、毎日の暮らしを整える。
+  title: ニトリ NR-230F
+  label: 230L 2-DOOR
+  caption: 冷蔵144L・冷凍86Lのホワイトモデル。二人の食材を気持ちよく収め、毎日の暮らしを整える。
   category: Life
   status: dream
   feasibility: high
   size: wide
-  image: /vision/tiles/refrigerator.webp
-  imageAlt: 深緑の英国風キッチンに置かれた大型のステンレス製冷蔵庫
+  image: /vision/tiles/refrigerator-nitori-nr230f.webp
+  imageAlt: 深緑の英国風キッチンに置かれたニトリNR-230Fをイメージした白い2ドア冷蔵庫
 
 - id: freezer-chest
   title: 冷凍ストッカー
