@@ -255,6 +255,17 @@
   image: /vision/tiles/porsche-911-targa.webp
   imageAlt: 海岸道路にたたずむ深緑の992世代Porsche 911 Targa
 
+- id: porsche-911-gt3-sc
+  title: 911 GT3 S/C
+  label: OPEN-TOP GT3
+  caption: 4.0L自然吸気を9,000rpmまで回し、6速MTとオープンエアを味わう。
+  category: Cars
+  status: dream
+  feasibility: long
+  size: standard
+  image: /vision/tiles/porsche-911-gt3-sc.webp
+  imageAlt: テネリフェの山岳路にたたずむガーズレッドのPorsche 911 GT3 S/C
+
 - id: fairlady-z-2017
   title: Fairlady Z Version ST
   label: 3.7 / 6MT / 2017
