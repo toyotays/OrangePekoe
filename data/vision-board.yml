@@ -122,6 +122,17 @@
   image: /vision/tiles/cayman-gt4.webp
   imageAlt: 欧州のサーキットパドックに置かれたグレーのケイマンGT4
 
+- id: cayman-gt4-rs
+  title: 718 Cayman GT4 RS
+  label: 9,000 RPM / 500 PS
+  caption: 4.0L自然吸気フラット6と7速PDKで、ミッドシップの頂点をサーキットまで味わう。
+  category: Cars
+  status: dream
+  feasibility: long
+  size: standard
+  image: /vision/tiles/cayman-gt4-rs.webp
+  imageAlt: 欧州のサーキットピットレーンにたたずむレーシングイエローのPorsche 718 Cayman GT4 RS
+
 - id: porsche-718-boxster-style-edition
   title: 718 Boxster Style Edition
   label: 2024 / 6MT
