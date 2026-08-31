@@ -70,6 +70,17 @@
   image: /vision/tiles/paragliding.webp
   imageAlt: オレンジ色の翼で紅葉の山と湖の上を飛ぶパラグライダー
 
+- id: scuba-diving-return
+  title: スキューバダイビングを再開
+  label: BACK TO THE BLUE
+  caption: 大学生の頃、部活で親しんだ海へ戻る。もう一度潜り、水中の静けさと景色を味わう。
+  category: Adventure
+  status: dream
+  feasibility: high
+  size: wide
+  image: /vision/tiles/scuba-diving-return.webp
+  imageAlt: 青いフィンを着けて光の差す珊瑚礁の海を泳ぐスキューバダイバー
+
 - id: garage-house
   title: 英国風の3台ガレージハウス
   label: HOME
