@@ -59,6 +59,17 @@
   image: /vision/tiles/groundtour.webp
   imageAlt: 海と山を望む道で地図を広げ、深緑のGTカーと旅を続ける二人の水彩イラスト
 
+- id: paragliding
+  title: パラグライダー
+  label: FLY FREE
+  caption: 山の風を読み、空を自由に飛ぶ。まずは体験から、自分の翼で景色の中へ。
+  category: Adventure
+  status: dream
+  feasibility: high
+  size: wide
+  image: /vision/tiles/paragliding.webp
+  imageAlt: オレンジ色の翼で紅葉の山と湖の上を飛ぶパラグライダー
+
 - id: garage-house
   title: 英国風の3台ガレージハウス
   label: HOME
