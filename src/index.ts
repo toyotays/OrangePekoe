@@ -2,6 +2,8 @@ import { Buffer } from "node:buffer";
 
 const encoder = new TextEncoder();
 const challenge = 'Basic realm="Orange Pekoe", charset="UTF-8"';
+const legacyHostname = "orenge-pekoe.aether42.workers.dev";
+const canonicalHostname = "orange-pekoe.aether42.workers.dev";
 const sessionCookie = "orange_pekoe_session";
 const sessionLifetime = 60 * 60 * 24 * 30;
 const subtle = crypto.subtle as SubtleCrypto & {
@@ -172,6 +174,11 @@ function basicUnauthorized(): Response {
 export default {
   async fetch(request, env): Promise<Response> {
     const url = new URL(request.url);
+
+    if (url.hostname === legacyHostname) {
+      url.hostname = canonicalHostname;
+      return Response.redirect(url, 308);
+    }
 
     if (url.pathname === "/login" || url.pathname === "/login/") {
       if (request.method === "POST") {
