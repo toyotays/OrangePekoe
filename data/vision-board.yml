@@ -423,6 +423,17 @@
   image: /vision/tiles/british-self.webp
   imageAlt: ツイードと紺のニットを着たシルバーグレーの髪の男性のイラスト
 
+- id: scotch-grain-imperial-prestige-988bl
+  title: IMPERIAL PRESTIGE II 988BL（EEE）
+  label: DRESS WITH PRESTIGE
+  caption: SCOTCH GRAINの黒いストレートチップ。ゆとりあるEEEの一足を、英国風の装いを支える上質な定番にする。
+  category: Self
+  status: next
+  feasibility: high
+  size: wide
+  image: /vision/tiles/scotch-grain-imperial-prestige-988bl.webp
+  imageAlt: 深緑と木目のドレッシングルームに置かれた黒いストレートチップの革靴
+
 - id: npo-next-generation
   title: 楽しそうな背中を、次の世代へ
   label: KATAWARA / LEGACY
