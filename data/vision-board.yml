@@ -91,6 +91,17 @@
   image: /vision/tiles/garage-house.webp
   imageAlt: リビングのガラス越しに1台を眺められ、奥の2台と合わせて3台を収める英国風ガレージハウス
 
+- id: real-pro-ep-ma121-k
+  title: Panasonic REAL PRO EP-MA121-K
+  label: DAILY RECOVERY
+  caption: 人に施術される負担や移動時間をなくし、自宅で毎日、短時間に全身を整える。試乗して身体との相性を確かめて迎える回復環境。
+  category: Health
+  status: dream
+  feasibility: medium
+  size: wide
+  image: /vision/tiles/real-pro-ep-ma121-k.webp
+  imageAlt: 深緑と木目の落ち着いた部屋に置かれた黒いPanasonic REAL PRO EP-MA121-Kをイメージしたマッサージチェア
+
 - id: super-fj
   title: Super FJ
   label: NEXT CATEGORY
