@@ -352,6 +352,39 @@
   image: /vision/tiles/corvette-c8.webp
   imageAlt: アメリカの荒野の道にたたずむ青いCorvette C8 Stingray
 
+- id: cadillac-ats-v
+  title: Cadillac ATS-V
+  label: COMPACT V-SERIES
+  caption: 3.6L V6ツインターボを、引き締まった2ドアクーペで操る。俊敏さとアメリカンパワーを両立する一台。
+  category: Cars
+  status: dream
+  feasibility: medium
+  size: standard
+  image: /vision/tiles/cadillac-ats-v.webp
+  imageAlt: 山並みを望む道路にたたずむ濃紺のCadillac ATS-Vクーペ
+
+- id: cadillac-cts-v
+  title: Cadillac CTS-V
+  label: SUPER SEDAN
+  caption: スーパーチャージドV8の力を、堂々とした4ドアセダンに収める。速さと実用性を妥協しない。
+  category: Cars
+  status: dream
+  feasibility: medium
+  size: standard
+  image: /vision/tiles/cadillac-cts-v.webp
+  imageAlt: 雨上がりの都市にたたずむ白い第三世代Cadillac CTS-Vセダン
+
+- id: ford-mustang-shelby-gt
+  title: Ford Mustang Shelby GT
+  label: AMERICAN ICON
+  caption: V8、ファストバック、ル・マンストライプ。シェルビーの物語と力強い走りを、自分のガレージへ迎える。
+  category: Cars
+  status: dream
+  feasibility: long
+  size: standard
+  image: /vision/tiles/ford-mustang-shelby-gt.webp
+  imageAlt: ネバダの砂漠道路にたたずむ白地に青いストライプのFord Mustang Shelby GT
+
 - id: aston-martin-vantage
   title: Aston Martin Vantage
   label: BRITISH MUSCLE
