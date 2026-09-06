@@ -353,15 +353,15 @@
   imageAlt: アメリカの荒野の道にたたずむ青いCorvette C8 Stingray
 
 - id: cadillac-ats-v
-  title: Cadillac ATS-V
-  label: COMPACT V-SERIES
-  caption: 3.6L V6ツインターボを、引き締まった2ドアクーペで操る。俊敏さとアメリカンパワーを両立する一台。
+  title: Cadillac ATS-V Sedan Spec B
+  label: 2016 / FR / 8AT
+  caption: クリスタルホワイトトゥリコートの2016年型。3.6L V6ツインターボと8速ATを、コンパクトな4ドアセダンで味わう。
   category: Cars
   status: dream
   feasibility: medium
   size: standard
   image: /vision/tiles/cadillac-ats-v.webp
-  imageAlt: 山並みを望む道路にたたずむ濃紺のCadillac ATS-Vクーペ
+  imageAlt: 雨上がりの山岳路にたたずむ白い2016年型Cadillac ATS-V Sedan Spec B
 
 - id: cadillac-cts-v
   title: Cadillac CTS-V
