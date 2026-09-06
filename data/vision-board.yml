@@ -505,6 +505,17 @@
   feasibility: high
   size: text
 
+- id: fordays-aren-z
+  title: フォーデイズ エレン Z
+  label: DAILY WELLNESS
+  caption: ベニクスノキタケエキス、ナリネ乳酸菌末、菊の花エキス末を含む健康補助サプリメントを、毎日の健康維持を支える習慣にする。
+  category: Health
+  status: next
+  feasibility: high
+  size: wide
+  image: /vision/tiles/fordays-aren-z.webp
+  imageAlt: 深緑と木目の書斎で水とともに置かれた赤橙色のフォーデイズ エレン Z
+
 - id: gacha-shop
   title: ガチャショップを経営する
   label: PLAYFUL BUSINESS
