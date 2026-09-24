@@ -219,6 +219,17 @@
   image: /vision/tiles/bmw-m3-2012.webp
   imageAlt: アルプスの山岳路にたたずむ白い2012年式BMW M3 E92クーペ
 
+- id: jaguar-xe-s-2016
+  title: Jaguar XE S 2016
+  label: 3.0 V6 S/C / FR / 8AT
+  caption: 340PSの3.0L V6スーパーチャージャーを、軽量な英国製スポーツセダンで味わう。
+  category: Cars
+  status: dream
+  feasibility: medium
+  size: standard
+  image: /vision/tiles/jaguar-xe-s-2016.webp
+  imageAlt: 雨上がりのスコットランドの山岳路にたたずむ赤い2016年式Jaguar XE S
+
 - id: alpine-a110
   title: Alpine A110
   label: MODERN LIGHTNESS
