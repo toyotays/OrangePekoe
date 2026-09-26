@@ -416,6 +416,17 @@
   image: /vision/tiles/renault-5-turbo-3e.webp
   imageAlt: コルシカの山岳路にたたずむ黄色と白のRENAULT 5 TURBO 3E
 
+- id: renault-5-e-tech-electric-yellow
+  title: RENAULT 5 E‑TECH ELECTRIC
+  label: POP YELLOW / 100% ELECTRIC
+  caption: フレンチポップな黄色と、日常にちょうどいい電気の走り。新しいR5を暮らしの相棒にする。
+  category: Cars
+  status: dream
+  feasibility: medium
+  size: standard
+  image: /vision/tiles/renault-5-e-tech-electric-yellow.webp
+  imageAlt: フランスの街並みにたたずむポップイエローのRENAULT 5 E‑TECH ELECTRIC
+
 - id: lamborghini-huracan
   title: Lamborghini Huracán
   label: NATURALLY ASPIRATED
