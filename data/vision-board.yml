@@ -81,6 +81,17 @@
   image: /vision/tiles/scuba-diving-return.webp
   imageAlt: 青いフィンを着けて光の差す珊瑚礁の海を泳ぐスキューバダイバー
 
+- id: weather-forecaster-exam
+  title: 気象予報士試験に合格する
+  label: READ THE SKY
+  caption: 空と天気図を読み解く専門知識を着実に積み上げ、気象予報士試験の合格を実現する。
+  category: Self
+  status: next
+  feasibility: high
+  size: wide
+  image: /vision/tiles/weather-forecaster-exam.webp
+  imageAlt: 深緑の書斎で天気図や気象レーダーを広げて気象予報士試験を学ぶ机
+
 - id: garage-house
   title: 英国風の3台ガレージハウス
   label: HOME
