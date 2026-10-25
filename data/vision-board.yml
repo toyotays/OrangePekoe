@@ -230,6 +230,17 @@
   image: /vision/tiles/bmw-m3-2012.webp
   imageAlt: アルプスの山岳路にたたずむ白い2012年式BMW M3 E92クーペ
 
+- id: audi-r8-5-2-fsi-quattro
+  title: Audi R8 5.2 FSI quattro
+  label: TYPE 42 / 2009 / V10 / 6MT
+  caption: 初代Type 42。Gallardoの5.2L自然吸気V10を、金属ゲート式6MTとquattroで味わう。
+  category: Cars
+  status: dream
+  feasibility: medium
+  size: standard
+  image: /vision/tiles/audi-r8-5-2-fsi-quattro.webp
+  imageAlt: アルプスの山岳路にたたずむ白い初代Audi R8 5.2 FSI quattro
+
 - id: jaguar-xe-s-2016
   title: Jaguar XE S 2016
   label: 3.0 V6 S/C / FR / 8AT
