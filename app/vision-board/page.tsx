@@ -70,6 +70,9 @@ export default function VisionBoardPage() {
             <p><span>02</span>かなったもの、近づいたものは？</p>
             <p><span>03</span>やめて削除したいものは？</p>
           </div>
+          <div className="strategic-retreat-entry">
+            <Link href="/strategic-retreat/">戦略的撤退 <span aria-hidden="true">→</span></Link>
+          </div>
         </div>
       </section>
 

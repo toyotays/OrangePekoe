@@ -40,7 +40,7 @@ export default function VisionPage() {
             <article>
               <span>02 · CONNECTION</span>
               <h2>必要とされる</h2>
-              <p>Fordays、配信、仲間との時間。人と会い、楽しさと価値を届ける。</p>
+              <p>Fordays、執筆、仲間との時間。人と会い、楽しさと価値を届ける。</p>
             </article>
             <article>
               <span>03 · FREEDOM</span>
@@ -87,7 +87,7 @@ export default function VisionPage() {
           </div>
           <p>
             ビジョンボードは、理屈を整理する場所ではない。
-            車、レース、旅、仕事、配信、二人の夢を、一目で感じるための場所。
+            車、レース、旅、仕事、創作、二人の夢を、一目で感じるための場所。
           </p>
           <Link className="button-primary" href="/vision-board/">
             ビジョンボードを見る <span>→</span>

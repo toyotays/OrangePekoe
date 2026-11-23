@@ -262,6 +262,17 @@
   image: /vision/tiles/alpine-a110.webp
   imageAlt: フレンチアルプスに置かれた現行世代の青いAlpine A110
 
+- id: alpine-a290
+  title: Alpine A290
+  label: ELECTRIC HOT HATCH
+  caption: 軽快なフレンチホットハッチの楽しさを、電気の瞬発力と日常性で味わう。
+  category: Cars
+  status: dream
+  feasibility: high
+  size: wide
+  image: /vision/tiles/alpine-a290.webp
+  imageAlt: フレンチアルプスの山岳路にたたずむ青いAlpine A290
+
 - id: maserati-granturismo
   title: Maserati GranTurismo
   label: GRAND TOUR
@@ -571,15 +582,6 @@
   image: /vision/tiles/gacha-shop.webp
   imageAlt: 深緑と木目で整えられたカプセルトイ専門店の店内
 
-- id: nagomi-stream
-  title: 優月なごみに、人が集まる
-  label: LIVE & CREATE
-  caption: 配信へたくさんのリスナーが集まり、一緒に笑い、楽しさと表現が広く届く。
-  category: Expression
-  status: dream
-  feasibility: high
-  size: text
-
 - id: writing-activity
   title: 執筆活動を続ける
   label: WRITE & PUBLISH
@@ -652,17 +654,6 @@
   size: wide
   image: /vision/tiles/racing-simulator.webp
   imageAlt: 深緑の専用室に設置された3画面の本格的なレースシミュレーター
-
-- id: streaming-room
-  title: 配信専用部屋
-  label: CREATOR ROOM
-  caption: 優月なごみの表現に集中でき、多くのリスナーが集まる専用空間。
-  category: Expression
-  status: dream
-  feasibility: high
-  size: wide
-  image: /vision/tiles/streaming-room.webp
-  imageAlt: マイクやカメラや照明を備えた落ち着いた配信専用スタジオ
 
 - id: npo-office
   title: NPO事務所

@@ -184,6 +184,8 @@ function isVisionBoardResource(pathname: string): boolean {
   return (
     pathname === "/vision-board" ||
     pathname.startsWith("/vision-board/") ||
+    pathname === "/strategic-retreat" ||
+    pathname.startsWith("/strategic-retreat/") ||
     pathname.startsWith("/_next/") ||
     pathname.startsWith("/vision/tiles/") ||
     pathname === "/icon.svg" ||

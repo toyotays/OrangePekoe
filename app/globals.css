@@ -513,6 +513,111 @@ nav { display: flex; align-items: center; gap: 7px; }
   font: 700 10px ui-sans-serif, system-ui;
   letter-spacing: .16em;
 }
+.strategic-retreat-entry {
+  margin-top: 28px;
+  display: flex;
+  justify-content: flex-end;
+}
+.strategic-retreat-entry a,
+.strategic-retreat-back a {
+  min-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  color: rgba(23,44,39,.64);
+  font: 700 9px ui-sans-serif, system-ui;
+  letter-spacing: .13em;
+  text-decoration: none;
+  border: 1px solid rgba(23,44,39,.24);
+  border-radius: 999px;
+}
+.strategic-retreat-entry a:hover,
+.strategic-retreat-entry a:focus-visible,
+.strategic-retreat-back a:hover,
+.strategic-retreat-back a:focus-visible {
+  color: #172c27;
+  border-color: #a57745;
+  outline: 2px solid transparent;
+}
+.strategic-retreat-page {
+  color: #e9e3d7;
+  background: #0a0e0d;
+}
+.strategic-retreat-hero {
+  min-height: 590px;
+  display: grid;
+  align-content: center;
+  padding-block: 90px;
+}
+.strategic-retreat-hero h1 {
+  max-width: 790px;
+  margin: 18px 0 34px;
+  font-size: clamp(72px, 11vw, 150px);
+  font-weight: 400;
+  line-height: .84;
+  letter-spacing: -.075em;
+}
+.strategic-retreat-hero h1 em { color: #8c745c; font-weight: 400; }
+.strategic-retreat-hero > p:last-child {
+  max-width: 600px;
+  margin: 0;
+  color: rgba(233,227,215,.62);
+  font-size: 13px;
+  line-height: 2;
+}
+.strategic-retreat-records { padding-block: 100px 45px; }
+.strategic-retreat-heading { margin-bottom: 50px; }
+.strategic-retreat-heading h2 {
+  margin: 18px 0 0;
+  font-size: clamp(40px, 6vw, 76px);
+  font-weight: 400;
+  letter-spacing: -.055em;
+}
+.strategic-retreat-record {
+  display: grid;
+  grid-template-columns: minmax(260px, .72fr) minmax(0, 1.28fr);
+  gap: 60px;
+  padding-block: 55px;
+  border-block: 1px solid rgba(233,227,215,.16);
+}
+.strategic-retreat-record-intro > span,
+.strategic-retreat-record-intro time,
+.strategic-retreat-item span {
+  color: #b39778;
+  font: 700 9px ui-sans-serif, system-ui;
+  letter-spacing: .16em;
+}
+.strategic-retreat-record-intro time { margin-left: 14px; color: rgba(233,227,215,.42); }
+.strategic-retreat-record-intro h3 {
+  margin: 28px 0 18px;
+  font-size: clamp(35px, 4vw, 58px);
+  font-weight: 400;
+}
+.strategic-retreat-record-intro p,
+.strategic-retreat-item p {
+  margin: 0;
+  color: rgba(233,227,215,.62);
+  font-size: 12px;
+  line-height: 1.9;
+}
+.strategic-retreat-items { display: grid; gap: 18px; }
+.strategic-retreat-item {
+  display: grid;
+  grid-template-columns: minmax(150px, .7fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  min-height: 190px;
+  padding: 20px;
+  background: rgba(255,255,255,.035);
+  border: 1px solid rgba(233,227,215,.12);
+}
+.strategic-retreat-item:not(:has(.strategic-retreat-image)) { grid-template-columns: 1fr; }
+.strategic-retreat-image { position: relative; align-self: stretch; min-height: 150px; overflow: hidden; }
+.strategic-retreat-image img { object-fit: cover; filter: saturate(.55) contrast(.96); }
+.strategic-retreat-item h4 { margin: 10px 0 12px; font-size: 25px; font-weight: 400; }
+.strategic-retreat-back { padding-block: 30px 100px; }
+.strategic-retreat-back a { color: rgba(233,227,215,.64); border-color: rgba(233,227,215,.24); }
 .vision-path { padding-block: 120px; }
 .vision-path-heading {
   margin-bottom: 55px;
@@ -612,6 +717,8 @@ footer { text-align: center; padding: 55px 20px; background: var(--ivory); color
   .vision-tile-copy { padding: 20px; }
   .vision-tile h2 { font-size: clamp(21px, 3.2vw, 27px); }
   .vision-tile p { font-size: 11px; line-height: 1.55; }
+  .strategic-retreat-hero { min-height: 500px; }
+  .strategic-retreat-record { grid-template-columns: 1fr; gap: 40px; }
 }
 
 @media (max-width: 520px) {
@@ -629,6 +736,12 @@ footer { text-align: center; padding: 55px 20px; background: var(--ivory); color
   .vision-tile-copy { padding: 20px; }
   .vision-tile h2 { margin-top: 9px; font-size: 25px; }
   .vision-tile p { font-size: 11px; line-height: 1.55; }
+  .strategic-retreat-entry { justify-content: flex-start; }
+  .strategic-retreat-hero { min-height: 430px; padding-block: 65px; }
+  .strategic-retreat-hero h1 { font-size: 66px; }
+  .strategic-retreat-records { padding-block: 70px 35px; }
+  .strategic-retreat-item { grid-template-columns: 1fr; }
+  .strategic-retreat-image { min-height: 210px; }
 }
 
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }

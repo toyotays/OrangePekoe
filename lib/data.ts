@@ -56,6 +56,23 @@ export type VisionBoardItem = {
   imageAlt?: string;
 };
 
+export type StrategicRetreatItem = {
+  title: string;
+  label: string;
+  caption: string;
+  image?: string;
+  imageAlt?: string;
+};
+
+export type StrategicRetreat = {
+  id: string;
+  title: string;
+  label: string;
+  decidedAt: string;
+  statement: string;
+  items: StrategicRetreatItem[];
+};
+
 function readYaml<T>(filename: string): T {
   const source = fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8");
   return YAML.parse(source) as T;
@@ -75,4 +92,8 @@ export function getVisionChapters(): VisionChapter[] {
 
 export function getVisionBoardItems(): VisionBoardItem[] {
   return readYaml<VisionBoardItem[]>("vision-board.yml");
+}
+
+export function getStrategicRetreats(): StrategicRetreat[] {
+  return readYaml<StrategicRetreat[]>("strategic-retreat.yml");
 }

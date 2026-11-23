@@ -1,0 +1,14 @@
+- id: nagomi
+  title: 優月なごみ
+  label: STRATEGIC RETREAT
+  decidedAt: 2026-11-24
+  statement: 活動を中止する。目指していた未来は現在のビジョンボードから外し、取り組んだ時間と構想を否定せず、ここに記録として残す。
+  items:
+    - title: 優月なごみに、人が集まる
+      label: LIVE & CREATE
+      caption: 配信へたくさんのリスナーが集まり、一緒に笑い、楽しさと表現が広く届く未来を描いていた。
+    - title: 配信専用部屋
+      label: CREATOR ROOM
+      caption: 優月なごみの表現に集中でき、多くのリスナーが集まる専用空間として構想していた。
+      image: /vision/tiles/streaming-room.webp
+      imageAlt: マイクやカメラや照明を備えた落ち着いた配信専用スタジオ
