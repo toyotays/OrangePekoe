@@ -5,7 +5,7 @@
   "compatibility_date": "2026-09-01",
   "compatibility_flags": ["nodejs_compat"],
   "secrets": {
-    "required": ["SITE_USERNAME", "SITE_PASSWORD"]
+    "required": ["SITE_USERNAME", "SITE_PASSWORD", "SHARE_TOKEN"]
   },
   "assets": {
     "directory": "./out",

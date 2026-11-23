@@ -6,6 +6,8 @@ const legacyHostname = "orenge-pekoe.aether42.workers.dev";
 const canonicalHostname = "orange-pekoe.aether42.workers.dev";
 const sessionCookie = "orange_pekoe_session";
 const sessionLifetime = 60 * 60 * 24 * 30;
+const shareCookie = "__Host-orange_pekoe_vision_share";
+const shareSessionLifetime = 60 * 60 * 24 * 30;
 const subtle = crypto.subtle as SubtleCrypto & {
   timingSafeEqual(a: ArrayBufferView, b: ArrayBufferView): boolean;
 };
@@ -116,9 +118,20 @@ function readCookie(request: Request, name: string): string | null {
 }
 
 async function sessionToken(env: Env): Promise<string> {
+  return signedToken(
+    env.SITE_PASSWORD,
+    `orange-pekoe-session-v1:${env.SITE_USERNAME}`,
+  );
+}
+
+async function shareSessionToken(env: Env): Promise<string> {
+  return signedToken(env.SHARE_TOKEN, "orange-pekoe-vision-share-v1");
+}
+
+async function signedToken(secret: string, payload: string): Promise<string> {
   const key = await crypto.subtle.importKey(
     "raw",
-    encoder.encode(env.SITE_PASSWORD),
+    encoder.encode(secret),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["sign"],
@@ -126,7 +139,7 @@ async function sessionToken(env: Env): Promise<string> {
   const signature = await crypto.subtle.sign(
     "HMAC",
     key,
-    encoder.encode(`orange-pekoe-session-v1:${env.SITE_USERNAME}`),
+    encoder.encode(payload),
   );
   return Buffer.from(signature).toString("base64url");
 }
@@ -160,6 +173,36 @@ async function isAuthenticated(request: Request, env: Env): Promise<boolean> {
   );
 }
 
+async function isShareAuthenticated(request: Request, env: Env): Promise<boolean> {
+  const cookie = readCookie(request, shareCookie);
+  return Boolean(
+    cookie && timingSafeEqual(cookie, await shareSessionToken(env)),
+  );
+}
+
+function isVisionBoardResource(pathname: string): boolean {
+  return (
+    pathname === "/vision-board" ||
+    pathname.startsWith("/vision-board/") ||
+    pathname.startsWith("/_next/") ||
+    pathname.startsWith("/vision/tiles/") ||
+    pathname === "/icon.svg" ||
+    pathname === "/favicon.ico"
+  );
+}
+
+function shareNotFound(): Response {
+  return new Response("Not found.", {
+    status: 404,
+    headers: {
+      "Cache-Control": "no-store",
+      "Referrer-Policy": "no-referrer",
+      "X-Content-Type-Options": "nosniff",
+      "X-Robots-Tag": "noindex, nofollow, noarchive, noimageindex",
+    },
+  });
+}
+
 function basicUnauthorized(): Response {
   return new Response("ID or password is incorrect.", {
     status: 401,
@@ -178,6 +221,28 @@ export default {
     if (url.hostname === legacyHostname) {
       url.hostname = canonicalHostname;
       return Response.redirect(url, 308);
+    }
+
+    if (url.pathname.startsWith("/share/")) {
+      const suppliedToken = url.pathname.slice("/share/".length);
+      if (
+        request.method !== "GET" ||
+        suppliedToken.includes("/") ||
+        !timingSafeEqual(env.SHARE_TOKEN, suppliedToken)
+      ) {
+        return shareNotFound();
+      }
+
+      return new Response(null, {
+        status: 303,
+        headers: {
+          "Cache-Control": "no-store",
+          Location: "/vision-board/",
+          "Referrer-Policy": "no-referrer",
+          "Set-Cookie": `${shareCookie}=${await shareSessionToken(env)}; Path=/; Max-Age=${shareSessionLifetime}; HttpOnly; Secure; SameSite=Lax`,
+          "X-Robots-Tag": "noindex, nofollow, noarchive, noimageindex",
+        },
+      });
     }
 
     if (url.pathname === "/login" || url.pathname === "/login/") {
@@ -209,17 +274,45 @@ export default {
     }
 
     if (url.pathname === "/logout" || url.pathname === "/logout/") {
+      const headers = new Headers({
+        "Cache-Control": "no-store",
+        Location: "/login",
+      });
+      headers.append(
+        "Set-Cookie",
+        `${sessionCookie}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Strict`,
+      );
+      headers.append(
+        "Set-Cookie",
+        `${shareCookie}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`,
+      );
+
       return new Response(null, {
         status: 303,
-        headers: {
-          "Cache-Control": "no-store",
-          Location: "/login",
-          "Set-Cookie": `${sessionCookie}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Strict`,
-        },
+        headers,
       });
     }
 
     if (!(await isAuthenticated(request, env))) {
+      if (
+        isVisionBoardResource(url.pathname) &&
+        (await isShareAuthenticated(request, env))
+      ) {
+        const assetResponse = await env.ASSETS.fetch(request);
+        const headers = new Headers(assetResponse.headers);
+        headers.set("Cache-Control", "private, no-store");
+        headers.set("Referrer-Policy", "no-referrer");
+        headers.set(
+          "X-Robots-Tag",
+          "noindex, nofollow, noarchive, noimageindex",
+        );
+        return new Response(assetResponse.body, {
+          status: assetResponse.status,
+          statusText: assetResponse.statusText,
+          headers,
+        });
+      }
+
       if (request.headers.get("Accept")?.includes("text/html")) {
         const loginUrl = new URL("/login", url);
         loginUrl.searchParams.set("returnTo", `${url.pathname}${url.search}`);
